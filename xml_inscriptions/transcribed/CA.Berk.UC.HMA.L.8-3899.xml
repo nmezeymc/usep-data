@@ -6,7 +6,7 @@
             <author>Author</author>
             <respStmt>
                <resp>Translation</resp>
-               <name>Translator</name>
+               <name>Borah Mezey-McMahon</name>
             </respStmt>
             <respStmt>
                <resp>Commentary</resp>
@@ -72,6 +72,21 @@
                      <date evidence="unspecified" notBefore="0069" notAfter="0079">69-79 CE</date>
                      <placeName ref="europe.italy.rome">Via Veneto, Rome, Italy</placeName>
                   </origin>
+                  <provenance type="transferred" subtype="purchased">
+                     <p>Bought in <placeName ref="europe.italy.rome">Rome</placeName> by <persName
+                        role="buyer">Alfred Emerson</persName>.</p>
+                  </provenance>
+                  <provenance type="transferred" subtype="donated">
+                     <p>Acquired by the <orgName role="recipient">Phoebe A. Hearst Museum of
+                        Anthropology in Berkeley</orgName> through <persName>Phoebe Aperson
+                           Hearst</persName>'s donation in <date>1902</date>.</p>
+                  </provenance>
+                  <provenance type="transferred" subtype="loaned">
+                     <p> Loaned to <persName role="recipient">John Desmond Clark</persName> of the
+                           <orgName role="recipient">UC Berkeley Department of
+                           Anthropology</orgName> on <date>May 24, 1962</date> and <date>June 1,
+                           1966</date> for one day each time.</p>
+                  </provenance>
                   <!--Add provenance element(s) to locations at later dates - same content as origin-->
                </history>
             </msDesc>
@@ -115,6 +130,7 @@
          <change when="2014-10-14" who="Scott J. DiGiulio">Updated EDH/EDR bibl tags</change>
          <change when="2015-08-17" who="Scott J. DiGiulio">Updated EDR link</change>
          <change when="2015-11-23" who="Scott J. DiGiulio">Corrected msItem/@class to control vocab, added transcription from image, made correction to handNote/@ana and moved to correct place, added handDesc/@hands</change>
+         <change when="2025-10-07" who="Norah Mezey-McMahon">Updated provenance according to Berkeley records and added translation</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -151,7 +167,8 @@
             </ab>
          </div>
          <div type="translation">
-            <p/>
+            <p>Of the emperor Augustus Vespanian under the care of Callistus, freedman of Augustus,
+               a procurator.</p>
          </div>
          <div type="commentary">
             <p/>

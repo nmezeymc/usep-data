@@ -76,7 +76,24 @@
                      <date evidence="unspecified" notBefore="-0100" notAfter="0001">first century BCE</date>
                      <placeName ref="unknown">unknown</placeName>
                   </origin>
-                  <!--Add provenance element(s) to locations at later dates - same content as origin-->
+                  <provenance type="transferred" subtype="purchased">
+                     <p>Bought in <placeName ref="europe.italy.rome">Rome</placeName> by <persName
+                           role="buyer">Alfred Emerson</persName>.</p>
+                  </provenance>
+                  <provenance type="transferred" subtype="donated">
+                     <p>Acquired by the <orgName role="recipient">Phoebe A. Hearst Museum of
+                           Anthropology in Berkeley</orgName> through <persName>Phoebe Aperson
+                           Hearst</persName>'s donation in <date>1902</date>.</p>
+                  </provenance>
+                  <provenance type="transferred" subtype="loaned">
+                     <p> Loaned to the <orgName role="recipient">UC Berkeley Design
+                           Department</orgName> from <date>April 21, 1966</date> to <date>June 9,
+                           1966</date>.</p>
+                  </provenance>
+                  <provenance type="transferred" subtype="loaned">
+                     <p> Loaned to the <orgName role="recipient">Crocker Art Museum</orgName> from
+                           <date>October 20, 1982</date> to <date>March 28. 1983</date>.</p>
+                  </provenance> 
                </history>
             </msDesc>
             <listBibl>
@@ -99,6 +116,7 @@
          <change when="2010-09-29" who="Center for Digital Scholarship">Converted to September 2009 EpiDoc</change>
          <change when="2011-05-17" who="Elli Mylonas">Older inscriptions with info updated to 2009 template</change>
          <change when="2015-11-24" who="Scott J. DiGiulio">Fixed handNote/handDesc, added note under placeName, added transcription from image</change>
+         <change when="2025-10-02" who="Norah Mezey-McMahon">Added provenance</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>

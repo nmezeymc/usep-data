@@ -38,9 +38,9 @@
                         <support>
                            <p>Broken marble slab</p>
                            <dimensions type="surface" unit="cm">
-                              <height/>
-                              <width/>
-                              <depth/>
+                              <height>13</height>
+                              <width>12</width>
+                              <depth>3</depth>
                            </dimensions>
                         </support>
                         <condition ana="#complete.broken">
@@ -69,10 +69,32 @@
                   </summary>
                   <origin>
                      <!--Should contain information about origin of inscription including place and date.-->
-                     <date evidence="unspecified" notBefore="0100" notAfter="0200">second century CE</date>
+                     <date evidence="unspecified" notBefore="0300" notAfter="0400"> Circa 4th century CE</date>
                      <placeName ref="asia.syria.antioch">Syria, Antioch</placeName>
                   </origin>
-                  <!--Add provenance element(s) to locations at later dates - same content as origin-->
+                  <provenance type="transferred" subtype="purchased">
+                     <p>Bought in <placeName ref="europe.italy.rome">Rome</placeName> by <persName
+                        role="buyer">Alfred Emerson</persName>.</p>
+                  </provenance>
+                  <provenance type="transferred" subtype="donated">
+                     <p>Acquired by the <orgName role="recipient">Phoebe A. Hearst Museum of
+                        Anthropology in Berkeley</orgName> through <persName>Phoebe Aperson
+                           Hearst</persName>'s donation in <date>1902</date>.</p>
+                  </provenance>
+                  <provenance type="transferred" subtype="loaned">
+                     <p> Loaned to the <orgName role="recipient">San Francisco Museum of Modern
+                           Art</orgName> from <date>June 11, 1965</date> to <date>August 6,
+                           1965</date>.</p>
+                  </provenance>
+                  <provenance type="transferred" subtype="loaned">
+                     <p> Loaned to the <orgName role="recipient">Crocker Art Museum</orgName> from
+                           <date>October 20, 1982</date> to <date>March 28, 1983</date>.</p>
+                  </provenance>
+                  <provenance type="transferred" subtype="loaned">
+                     <p> Loaned to <orgName role="recipient">Saint Mary’s College of
+                           California</orgName> from late March/early April <date>1983</date> to
+                           <date>April 29, 1983</date>.</p>
+                  </provenance>
                </history>
             </msDesc>
             <listBibl>
@@ -100,6 +122,7 @@
          <change when="2011-05-17" who="Elli Mylonas">Older inscriptions with info updated to 2009 template</change>
          <change when="2015-11-24" who="Scott J. DiGiulio">updated placeName, fixed handDesc/handNote, added note under condition, added transcription from image</change>
          <change when="2021-02-23" who="Elli Mylonas">Change impressed.inscribed.carved to inscribed</change>
+         <change when="2025-10-04" who="Norah Mezey-McMahon">Updated origin/provenance and added translation according to Berkeley records</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -136,7 +159,8 @@
             </ab>
          </div>
          <div type="translation">
-            <p/>
+            <p>Of the river Ladon and of flower crowned Daphne, I, Antiochus, whose native city is
+               Antioch, lie here.</p>
          </div>
          <div type="commentary">
             <p/>
